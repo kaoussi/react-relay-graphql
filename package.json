@@ -1,0 +1,29 @@
+{
+  "name": "rgrjs",
+  "version": "1.0.0",
+  "description": "Simple react relay graphql express app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets es2015"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaoussi/react-relay-graphql.git"
+  },
+  "author": "kaoussi.souhail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaoussi/react-relay-graphql/issues"
+  },
+  "homepage": "https://github.com/kaoussi/react-relay-graphql#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-latest": "^6.24.0",
+    "nodemon": "^1.11.0"
+  }
+}
